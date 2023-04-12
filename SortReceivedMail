@@ -18,7 +18,7 @@ const sortInfo = [["Adobe", "@mail.adobe.com"],
 //  Outline：新着メールを取得してラベルを付与するメイン処理
 //-----------------------------
 //   Create：2021/01/02
-//   Update：2021/01/03  
+//   Update：2023/04/12 
 //=============================
 function SortReceivedMail() {
 let query = "";                                 // スレッド仕分け用のクエリ
@@ -125,7 +125,7 @@ let curSortInfoLabel                            // 現在のsortInfoのラベル
   //   Return：numSlicedFromTop (先頭からの位置)
   //-----------------------------
   //   Create：2021/01/02
-  //   Update：  
+  //   Update：
   //=============================
   function SearchCharactorPosition(value, charOfSearch ){
      numSlicedFromTop = value.indexOf(charOfSearch);
